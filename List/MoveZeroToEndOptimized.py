@@ -1,3 +1,9 @@
+"""
+    Complexity:
+        Time: O(n)
+        Space: O(1)
+"""
+
 def MoveZerotoEnd(arr,pos):
     for i in range(len(arr)):
         if arr[i]!=0:
